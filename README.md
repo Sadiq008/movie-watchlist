@@ -1,8 +1,36 @@
-# React + Vite
+# Movie Watchlist App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A React-based web application that allows users to search for movies, create personalized watchlists, and track their watched movies. Built with modern web technologies and a clean, responsive user interface.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Movie Search**: Search movies using the OMDB API
+- **User Authentication**: Register and login functionality
+- **Personalized Watchlists**: Create and manage movie watchlists
+- **Watch Status**: Mark movies as watched/unwatched
+- **Categorized Lists**: Movies are automatically categorized by search terms
+- **Responsive Design**: Works seamlessly on desktop and mobile devices
+- **Toast Notifications**: Real-time feedback for user actions
+
+## Technologies Used
+
+- **Frontend Framework**: React
+- **State Management**: Redux Toolkit
+- **Routing**: React Router DOM
+- **Styling**: Tailwind CSS
+- **Icons**: React Icons
+- **Notifications**: React Toastify
+- **API**: OMDB API
+- **Storage**: Local Storage for persistence
+
+## Getting Started
+
+### Prerequisites
+
+- Node.js (v14 or higher)
+- npm or yarn
+- Git
+
+### Installation
+
+Clone the repository
